@@ -1,0 +1,3 @@
+## UZH GitHub
+UZH members can use their UZH email address to sign up for a GitHub account. This account can be used for both private and public repositories. GitHub offers free plans for public repositories and paid plans for private repositories and additional features. 
+UZH has no official GitHub Enterprise license for the entire university. However, some departments or research groups may have their own licenses. Please check with your IT department or supervisor for more information.
