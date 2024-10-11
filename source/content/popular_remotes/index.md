@@ -14,6 +14,7 @@
 <!-- build the page content here -->
 ```{include} ./overview_popular_remotes.md
 ```
+# Remote Services in Detail
 ```{include} ./github.md
 ```
 {% endif %}
