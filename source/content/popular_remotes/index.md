@@ -7,6 +7,7 @@
 
 ./overview_popular_remotes
 ./github
+./gitlab
 
 ```
 {% else %}
@@ -16,5 +17,7 @@
 ```
 # Remote Services in Detail
 ```{include} ./github.md
+```
+```{include} ./gitlab.md
 ```
 {% endif %}
