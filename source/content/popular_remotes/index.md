@@ -8,6 +8,7 @@
 ./overview_popular_remotes
 ./github
 ./gitlab
+./bitbucket
 
 ```
 {% else %}
@@ -20,4 +21,7 @@
 ```
 ```{include} ./gitlab.md
 ```
+```{include} ./bitbucket.md
+```
+
 {% endif %}
