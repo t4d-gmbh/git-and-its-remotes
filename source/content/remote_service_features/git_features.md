@@ -1,4 +1,2 @@
-# Git features
+# Remote service features vs. git features
 
-- commits, branches, tags
-- checkout, pull, push, merge, rebase
