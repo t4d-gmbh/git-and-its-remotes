@@ -1,4 +1,6 @@
-# Git features vs. remote services
+# Remote services
+    
+_What features do they offer?_
 
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
