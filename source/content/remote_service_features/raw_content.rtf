@@ -1,166 +1,128 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica-Oblique;
-}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww37900\viewh19880\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+Introduction (or overview)
 
-\f0\fs24 \cf0 \
+Text
 
-\fs28 Git Course \'97 Part 2
-\fs24 \
-\
-\
-(Git features vs remote services)\
-\
-\
+As we discussed in Part 1, Git is a distributed version control system (VCS) that manages and tracks change in codebases located locally (i.e. on your machine). Git is not to be confused with GitHub and GitLab, which, in turn, are remote hosting web-based platforms that use Git to offer services to store and collaborate on code remotely.
 
-\f1\b\fs26 \ul Introduction (or overview)
-\f0\b0\fs24 \ulnone \
-\
+Remote services like GitHub or GitLab offer a range of features that extend beyond basic Git functionalities, making project management, collaborations and automation that much easier.  In this section, we will go over some of the key features of Git-based remote services and tools that are particularly useful for collaborative project management.
 
-\f2\i Text
-\f0\i0 \
-\
-As we discussed in Part 1, Git is a distributed version control system (VCS) that manages and tracks change in codebases 
-\f1\b located locally
-\f0\b0  (i.e. on your machine). Git is not to be  confused with GitHub and GitLab, which, in turn, are remote hosting web-based platforms that 
-\f2\i use Git
-\f0\i0  to offer services to store and collaborate on code 
-\f1\b remotely.
-\f0\b0 \
-\
-In this section, we will go over the key features of remote services \
-\
 
-\f2\i Slides
-\f0\i0 \
-\
-Reminder: Git =/ git-based remote hosting services\
-\
-Git = version control system (VCS) to 
-\f1\b locally
-\f0\b0  manage and track coding changes\
-\
-Git-based remote services (e.g. GitHub, GitLab) = web-based platforms that offer services to store and facilitate collaborative coding projects, using the underlying version control tools offered by Git.\
-\
-\
-Overview:\
-- Remote features:\
-	- Issues\
-	- Milestones\
-	- Merge/pull requests\
-\
-\
-\
+Slides
 
-\f1\b\fs26 \ul Remote services \'97 Key Features
-\f0\b0 \
+Reminder: 
+Git =/ git-based remote hosting services
+Git = version control system (VCS) to locally manage and track coding changes
+Git-based remote services (e.g. GitHub, GitLab) = web-based platforms that offer services to store and facilitate collaborative coding projects, using the underlying version control tools offered by Git.
 
-\fs24 \ulnone \
 
-\f2\i Text\
+Overview:
+- Issues
+- Merge/pull requests
+- Project management tools
+- History Tracking
 
-\f0\i0 \
-Remote services like GitHub or GitLab offer a range of features that extend beyond basic Git functionalities, making project management, collaborations and automation that much easier. On e  \
-\
-\
-\
-\
-\
 
-\f2\i Slides\
-\
-\
-\
-\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
-\
+——————————————————————
+
+Issues
+
 What is an Issue?
-\f0\i0 \
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 Issues allow to track tasks, bugs and any kind of work that needs to be done in a project. Useful in project management, especially in collaborative projects involving multiple developers or an entire community because it allows to track all the changes pertaining to a task . Issue-tracking is a feature of platforms such as GitHub and GitLab that offer, and not a Git concept in itself\
-\
-Different types of issues:\
-- Bug\
-- Feature requests\
-- Tasks\
-- Documentation\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 \
-\
 
-\f2\i What are the key properties of an issue and why are they useful for in collaborative project management?
-\f0\i0 \
-\
-1. Description: Each issue has a title and a a description section that outline the problem (expected and actual behaviour), task (e.g. steps to reproduce), or an enhancement (e.g. a new feature, potential ideas or solutions to fix a bug) to be made. \
-\
-2. Assignees: Issues can be assigned to specific team members to clarify tasks and responsibilities and facilitate project management. \
-\
-3. State: to track progress on an issue, they can have descriptive states like \'93open\'94 (still to be resolved) and \'93closed\'94 (issue has been resolved), or anything in between like \'93in progress\'94.\
-\
-4. Labels: Issues can be categorised using labels, e.g. \'93bug\'94, \'93documentation\'94, etc., to help organise and prioritise work.\
-\
-5. Comments: Team members can discuss an issue in a comment thread to offer insights, feedback, exchange ideas in how to resolve an issue.\
-\
-6. Milestones: Issues can be grouped under specific milestones and follow the overarching structure of a project, e.g. timeline towards objectives, new version release. \
-\
-\
+Issues allow to track tasks, bugs and any kind of work that needs to be done in a project. Useful in project management, especially in collaborative projects involving multiple developers or an entire community because it allows to track all the changes pertaining to a task . Issue-tracking is a feature of platforms such as GitHub and GitLab that offer, and not a Git concept in itself
 
-\f2\i How to manage issues? Exemplary workflow
-\f0\i0 \
-\
-1. 
-\f1\b Open an issue
-\f0\b0 : Person 1 (team member, community user) notices a bug or wants to propose a new feature and opens an issue with a compelling title and a detailed description. \
-\
-2. 
-\f1\b Discussion
-\f0\b0 : Other team members or users discuss potential fixes or features in the comments\
-\
-3. 
-\f1\b Assign & Work
-\f0\b0 : someone is assigned (or assign themselves) the issue, and they start working on it in a Git branch. \
-\
-4. 
-\f1\b Comment & Link
-\f0\b0 : When they push commits, they link them to the issue using commit messages\
-\
-5. 
-\f1\b Close the issue
-\f0\b0 : Once the code is reviewed and merged, the issue is closed. \
-\
-\
-\
-\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Different types of issues:
+- Bug
+- Feature requests
+- Tasks
+- Documentation
 
-\f2\i \
+
+What are the key properties of an issue and why are they useful for in collaborative project management?
+
+1. Description: Each issue has a title and a a description section that outline the problem (expected and actual behaviour), task (e.g. steps to reproduce), or an enhancement (e.g. a new feature, potential ideas or solutions to fix a bug) to be made. 
+2. Assignees: Issues can be assigned to specific team members to clarify tasks and responsibilities and facilitate project management. 
+3. State: to track progress on an issue, they can have descriptive states like “open” (still to be resolved) and “closed” (issue has been resolved), or anything in between like “in progress”.
+4. Labels: Issues can be categorised using labels, e.g. “bug”, “documentation”, etc., to help organise and prioritise work.
+5. Comments: Team members can discuss an issue in a comment thread to offer insights, feedback, exchange ideas in how to resolve an issue.
+6. Milestones: Issues can be grouped under specific milestones and follow the overarching structure of a project, e.g. timeline towards objectives, new version release. 
+
+
+How to manage issues? Exemplary workflow
+
+1. Open an issue: Person 1 (team member, community user) notices a bug or wants to propose a new feature and opens an issue with a compelling title and a detailed description. 
+2. Discussion: Other team members or users discuss potential fixes or features in the comments
+3. Assign & Work: someone is assigned (or assign themselves) the issue, and they start working on it in a Git branch. 
+4. Comment & Link: When they push commits, they link them to the issue using commit messages
+5. Close the issue: Once the code is reviewed and merged, the issue is closed. 
+
+
+—————————
+
+Merge/Pull Requests
+
 What are merge (pull) requests?
-\f0\i0 \
-\
-\
-\
 
-\f2\i What are the key properties?
-\f0\i0 \
-\
-\
-\
-\'97\'97\'97\
-\
+A Merge Request (GitLab) or Pull Request (GitHub) corresponds to a formal request by a developer to have their code changes merged from one branch (e.g. to develop a new feature or fix a bug) into another branch (usually the main).
 
-\f2\i What is a project vs hierarchical \'85?
-\f0\i0 \
-\
-\
+In a collaborative project, it is a useful tool for:
+- Review code changes before merging
+- Discuss changes and suggest improvements
+- Testing code to ensure changes don’t break the project or the overall workflow.
+- Approve code changes or workflow (by one or several developers).
 
-\f2\i  \
 
-\f1\i0\b \
-\
-\
+What are the key components of a Pull/Merge Request?
+1. Source branch (containing the new changes) and Target branch (where the changes are merged into, main or develop)
+2. Description: a title and a brief description outlining the changes made in the branch, which can be linked to issues or tasks to provide context
+3. Reviewers: team members to review the changes an provide feedback
+4. Comments: a discussion thread or inline comments on specific lines of codes
+5. Approval / Request changes: Reviewers either approve the changes or request further modifications
+6. CI/CD Integration: automated checks are triggered to validate the code
+7. Merge: process of incorporating the changes into the target branch
+8. Conflict resolution: merge conflicts (i.e. when changes in the source branch contradict changes in the target branch) that might need to be resolved
 
-\fs26 \
-\
-}
+
+Pull / Merge Request workflow:
+1. Create branch
+2. Commit changes (any work done on the branch)
+3. Push branch into remote repository
+4. Create Pull / Merge Request to propose the changes from the source to the target branch
+5. Review and Feedback, requesting additional changes as needed
+(6. Automated Testing run to ensure the changes don’t introduce bugs or other problems)
+7. Approval
+8. Merge changes into target branch
+
+
+———
+
+Project Management Tools
+
+- Milestones: organise related issues and merge / pull requests into milestones to plan releases or major project phases
+- Task Lists: checkable items can be added to issues and merge/pull requests to better track progress within each individual task
+-  Kanban-style Boards: to organise and visualise tasks according to their progress status, e.g . “To Do”, “In Progress”, “Done”. Issues and Pull/Merge Requests can be turned into tasks on these boards.
+
+
+——
+
+History Tracking
+
+One of the key services offered by GitHub, GitLab is tracking and providing a full record in an organised way of all the changes beyond the commits history provided in Git. More than just keeping a list of changes, it includes a full history of what happened, when it happened, and why it happened. 
+
+Key advantages:
+1. Clarity and Transparency: understand what has been done in a project and why, even after months or years
+Every time something in the project is changed GitHub/GitLab records:
+	- What changed, i.e. the actual lines of code;
+	- Why it changed through issue tracking and pull requests:
+	- Who changed it
+
+2. Accountability and Responsibility: by tracking who made changes and why makes it addressing problems easier and faster
+
+3. Organised Problem Solving (Issue Tracking) — cf. previous sub-section
+
+4. Collaboration and Communication: the full history of changes ensures everyone is on the same page, even in teams working remotely or in different time zones. The Pull/Merge Requests system encourages discussions and reviews within a team or a wider community. 
+
+5. Continuous learning and preventing mistakes: By having a full history or every issue, change, and discussion, new users or future develops can look back and learn why certain decisions were made, what worked and what didn’t, or how similar problem were solved, which in turn allows for better informed decision-making in the future.
+
+6. Easy Rollbacks: if a mistake is made, it’s easy to go back to a previous version of the project, reverting to an earlier state without loosing any data.
+
+7. Efficiency and Trust-Building: the ability to comment and keep track of the discussion directly where the changes are made makes it easier to find information (vs. long-chains of e-mails and endless meetings) and foster trusts within a community that a project is being managed carefully at every step of the process.
