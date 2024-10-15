@@ -1,6 +1,6 @@
 # Organizing your projects
 
-{% if slide %}
+{% if build == "slides" %}
 <!-- BUILDING THE SLIDES -->
 ```{toctree}
 :maxdepth: 2
