@@ -16,13 +16,13 @@
 
 | **Aspect** | **GitHub** | **GitLab** |**Bitbucket** |
 |------------|------------|------------|--------------|
-| <span style="font-size:14px;">**Repository Hosting**: Platform to host and manage code repositories.</span>  | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span>                                                |
-| <span style="font-size:14px;">**Pull Requests/Merge Requests**: Propose changes to the codebase via "requests".</span> | <span style="font-size:14px;">Pull Requests</span> | <span style="font-size:14px;">Merge Requests</span> | <span style="font-size:14px;">Pull Requests</span> |
-| <span style="font-size:14px;">**Issues and Bug Tracking**: Includes an integrated issue tracker for managing bugs and tasks.</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> |
-| <span style="font-size:14px;">**Wikis**: Supports project documentation through wikis.</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> |
-| <span style="font-size:14px;">**CI/CD**: Automatically running jobs for testing, continuous integration and deployment.</span> | <span style="font-size:14px;">GitHub Actions</span> | <span style="font-size:14px;">Integrated CI/CD</span> | <span style="font-size:14px;">Bitbucket Pipelines</span> |
-| <span style="font-size:14px;">**Web IDE**: In-browser coding editor.</span> | <span style="font-size:14px;">github.dev and GitHub Codespaces</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Cloud IDE</span> |
-| <span style="font-size:14px;">**Workspaces**: Sandbox development environment.</span> | <span style="font-size:14px;">Codespaces</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> |
-| <span style="font-size:14px;">**Integrations**: Tools and services that connect with remote services.</span> | <span style="font-size:14px;">Marketplace</span> | <span style="font-size:14px;">-</span> | <span style="font-size:14px;">Integrations with Jira and Confluence</span> |
+| <span style="font-size:14px;">**Repository Hosting**</span>  | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span>                                                |
+| <span style="font-size:14px;">**Pull Requests/Merge Requests**</span> | <span style="font-size:14px;">Pull Requests</span> | <span style="font-size:14px;">Merge Requests</span> | <span style="font-size:14px;">Pull Requests</span> |
+| <span style="font-size:14px;">**Issues and Bug Tracking**</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> |
+| <span style="font-size:14px;">**Wikis**</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> |
+| <span style="font-size:14px;">**CI/CD**</span> | <span style="font-size:14px;">GitHub Actions</span> | <span style="font-size:14px;">Integrated CI/CD</span> | <span style="font-size:14px;">Bitbucket Pipelines</span> |
+| <span style="font-size:14px;">**Web IDE**</span> | <span style="font-size:14px;">github.dev and GitHub Codespaces</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Cloud IDE</span> |
+| <span style="font-size:14px;">**Workspaces**</span> | <span style="font-size:14px;">Codespaces</span> | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> |
+| <span style="font-size:14px;">**Integrations**</span> | <span style="font-size:14px;">Marketplace</span> | <span style="font-size:14px;">-</span> | <span style="font-size:14px;">Integrations with Jira and Confluence</span> |
 
 {% endif %}
