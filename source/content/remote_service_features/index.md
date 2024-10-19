@@ -13,7 +13,6 @@ However, some features are rather uinversally present{%if page %} and can be rou
 ./web_interface
 ./collaboration_tools/index
 ./access
-./activity_tracking
 ./overview
 ./release
 
@@ -31,9 +30,11 @@ However, some features are rather uinversally present{%if page %} and can be rou
 ```
 ```{include} ./collaboration_tools/milestones.md
 ```
-```{include} ./collaboration_tools/labels.md
+```{include} ./collaboration_tools/.md
 ```
 ```{include} ./collaboration_tools/activity_tracking.md
+```
+```{include} ./collaboration_tools/newsfeed_vs_githistory.md
 ```
 ```{include} ./project_mgmt_tools.md
 ```

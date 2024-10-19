@@ -32,5 +32,3 @@ Generally, any problem, question, or proposition that needs to be addressed can 
 | **Labels**      | {% if slide %}A set of arbitrary labels{% else %}Issues can be categorized using labels, e.g., “bug”, “documentation”, etc., to help organize and prioritize work.{% endif %}                                             |
 | **News Feed**    | {% if slide %}A **chat like activity feed** that allows commenting{% else %}Issues provide an activity or news feed, that displays any related changes and that anyone with can access and write comments to offer insights, feedback, and exchange ideas on how to resolve an issue.{% endif %}                             |
 | **Milestone**  | {% if slide %}Affiliation to a {octicon}`milestone;0.8em` Milestone{% else %}Issues can be grouped under milestones and be integrated into an overarching planning, even between repositories for some remote services.{% endif %}   |
-
-
