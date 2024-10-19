@@ -1,2 +1,2 @@
-# Remote service features vs. git features
+### Remote service features vs. git features
 
