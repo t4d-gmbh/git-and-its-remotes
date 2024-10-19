@@ -1,13 +1,13 @@
-#### Issues
+#### {octicon}`issue-opened;0.8em` Issues
 
-Issues allow to document and track tasks, bugs and any kind of work that needs to be done in a project.
+(_or **![issue](./icons/issue.svg) Issues**_ for <i class="fab fa-gitlab"></i>)
+
+```{epigraph}
+Allow to document and track tasks, bugs and any kind of work that needs to be addressed in a repository.
+```
 {% if page %}
-Useful in project management, especially in collaborative projects involving multiple developers or an entire community because it allows to track all the changes pertaining to a task.
-Issue-tracking is a feature of remote service platforms such as <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab** that offer, and not a  concept in itself <i class="fab fa-git"></i>.
-{% endif %}
-
-**![issue](./icons/issue.svg) Issue**
-**![mp_request](./icons/mp_request.svg)**
+An issue allows to document all planned changes, discovered bugs, questions related to the repository, etc.
+It is a rather genuine piece of information tied to a repository and useful in project management, especially in collaborative projects involving multiple developers or an entire community.
 
 Different types of issues:
 - Bug
@@ -15,21 +15,23 @@ Different types of issues:
 - Tasks
 - Documentation
 
+Generally, issues tend to have the following properties:
+{% endif %}
 
-What are the key properties of an issue and why are they useful for in collaborative project management?
+:::{admonition} Not all {octicon}`issue-opened`/![issue](./icons/issue.svg) Issues are issues
+:class: note, margin
 
-1. Description: Each issue has a title and a a description section that outline the problem (expected and actual behaviour), task (e.g. steps to reproduce), or an enhancement (e.g. a new feature, potential ideas or solutions to fix a bug) to be made. 
-2. Assignees: Issues can be assigned to specific team members to clarify tasks and responsibilities and facilitate project management. 
-3. State: to track progress on an issue, they can have descriptive states like “open” (still to be resolved) and “closed” (issue has been resolved), or anything in between like “in progress”.
-4. Labels: Issues can be categorised using labels, e.g. “bug”, “documentation”, etc., to help organise and prioritise work.
-5. Comments: Team members can discuss an issue in a comment thread to offer insights, feedback, exchange ideas in how to resolve an issue.
-6. Milestones: Issues can be grouped under specific milestones and follow the overarching structure of a project, e.g. timeline towards objectives, new version release. 
+Generally, any problem, question, or proposition that needs to be addressed can be documented in an issue.
+:::
 
 
-How to manage issues? Exemplary workflow
+| Property     | Description                                                                                                                                                     |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Description** | {% if slide %}**Title** and a short **description** that outlines what need to be addressed.{% else %}Each issue has a title and a description section that outlines the problem (expected and actual behavior), task (e.g., steps to reproduce), or an enhancement (e.g., a new feature, potential ideas or solutions to fix a bug).{% endif %} |
+| **Assignees**   | {% if slide %}A designated **responsible for managing** this issue.{% else %}Issues can be assigned to specific team members to clarify tasks and responsibilities and facilitate project management.{% endif %}                                      |
+| **State**       | {% if slide %}Either {octicon}`issue-opened` **opened** or {octicon}`issue-closed` **closed**{% else %}To track progress on an issue, generally they can have two states {octicon}`issue-opened` “open” (still to be resolved) and {octicon}`issue-closed` “closed” (issue has been resolved).{% endif %} |
+| **Labels**      | {% if slide %}A set of arbitrary labels{% else %}Issues can be categorized using labels, e.g., “bug”, “documentation”, etc., to help organize and prioritize work.{% endif %}                                             |
+| **News Feed**    | {% if slide %}A **chat like activity feed** that allows commenting{% else %}Issues provide an activity or news feed, that displays any related changes and that anyone with can access and write comments to offer insights, feedback, and exchange ideas on how to resolve an issue.{% endif %}                             |
+| **Milestones**  | {% if slide %}Affiliation to a group of issues{% else %}Issues can be grouped under specific milestones and follow the overarching structure of a project, e.g., timeline towards objectives, new version release.{% endif %}   |
 
-1. Open an issue: Person 1 (team member, community user) notices a bug or wants to propose a new feature and opens an issue with a compelling title and a detailed description. 
-2. Discussion: Other team members or users discuss potential fixes or features in the comments
-3. Assign & Work: someone is assigned (or assign themselves) the issue, and they start working on it in a Git branch. 
-4. Comment & Link: When they push commits, they link them to the issue using commit messages
-5. Close the issue: Once the code is reviewed and merged, the issue is closed. 
+

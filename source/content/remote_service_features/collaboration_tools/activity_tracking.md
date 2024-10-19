@@ -1,4 +1,25 @@
-### Activity Tracking
+### Note on Activity Tracking
+
+---
+
+Issue-tracking is a feature of remote service platforms such as <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab** that offer, and not a  concept in itself <i class="fab fa-git"></i>.
+
+the changes pertaining to a task.
+
+{% if page %}
+**How to manage issues?**
+
+Exemplary workflow:
+
+1. **Open an issue**: Person 1 (team member, community user) notices a bug or wants to propose a new feature and opens an issue with a compelling title and a detailed description. 
+1. **Discussion**: Other team members or users discuss potential fixes or features in the comments
+1. **Assign & Work**: someone is assigned (or assign themselves) the issue, and they start working on it either preparing a single commit or creating a separate <i class="fab fa-git"></i> branch. 
+1. **Comment & Link**: Progress can regularly be reported by commenting by tagging the issue directly in a commit message.
+1. Close the issue: Once the code is reviewed and merged, the issue is closed. 
+{% endif %}
+
+---
+
 
 One of the key services offered by GitHub, GitLab is tracking and providing a full record in an organised way of all the changes beyond the commits history provided in Git. More than just keeping a list of changes, it includes a full history of what happened, when it happened, and why it happened. 
 
