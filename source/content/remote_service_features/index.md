@@ -29,6 +29,8 @@ However, some features are rather uinversally present{%if page %} and can be rou
 ```
 ```{include} ./collaboration_tools/merge_pull_requests.md
 ```
+```{include} ./collaboration_tools/milestones.md
+```
 ```{include} ./collaboration_tools/activity_tracking.md
 ```
 ```{include} ./project_mgmt_tools.md
