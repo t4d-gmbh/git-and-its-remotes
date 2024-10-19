@@ -13,8 +13,7 @@ However, some features are rather uinversally present{%if page %} and can be rou
 ./web_interface
 ./collaboration_tools/index
 ./access
-./overview
-./release
+./ci_cd_feature
 
 ```
 {% else %}
@@ -42,8 +41,6 @@ However, some features are rather uinversally present{%if page %} and can be rou
 ```
 ```{include} ./access.md
 ```
-```{include} ./overview.md
-```
-```{include} ./release.md
+```{include} ./ci_cd_feature.md
 ```
 {% endif %}

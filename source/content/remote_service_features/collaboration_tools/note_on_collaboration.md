@@ -1,4 +1,4 @@
-### Note on Collaboration
+### A Note on Collaboration
 
 {% if page %}
 Clearly not just <i class="fab fa-git"></i> but also related remote services aim to facilitate collaboration.

@@ -1,4 +1,4 @@
-# Organizing your projects
+# Organizing Projects
 
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
