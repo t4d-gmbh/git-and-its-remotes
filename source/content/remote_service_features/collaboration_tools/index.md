@@ -8,6 +8,7 @@
 ./issues
 ./merge_pull_requests
 ./milestones
+./labels
 ./activity_tracking
 
 ```

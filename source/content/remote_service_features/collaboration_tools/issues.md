@@ -24,7 +24,6 @@ Generally, issues tend to have the following properties:
 Generally, any problem, question, or proposition that needs to be addressed can be documented in an issue.
 :::
 
-
 | Property     | Description                                                                                                                                                     |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Description** | {% if slide %}**Title** and a short **description** that outlines what need to be addressed.{% else %}Each issue has a title and a description section that outlines the problem (expected and actual behavior), task (e.g., steps to reproduce), or an enhancement (e.g., a new feature, potential ideas or solutions to fix a bug).{% endif %} |
