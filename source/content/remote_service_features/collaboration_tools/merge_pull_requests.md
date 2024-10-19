@@ -44,13 +44,14 @@ In a collaborative project, it is a useful tool for:
 
 Pull / Merge Request workflow:
 1. Create branch
-2. Commit changes (any work done on the branch)
-3. Push branch into remote repository
-4. Create Pull / Merge Request to propose the changes from the source to the target branch
-5. Review and Feedback, requesting additional changes as needed
-(6. Automated Testing run to ensure the changes don’t introduce bugs or other problems)
-7. Approval
-8. Merge changes into target branch
+1. Commit changes (any work done on the branch)
+1. Push branch into remote repository
+1. Create Pull / Merge Request to propose the changes from the source to the target branch
+1. Review and Feedback, requesting additional changes as needed
+1. Rebase or merge target branch to include its most recent state
+1. Automated Testing run to ensure the changes don’t introduce bugs or other problems
+1. Approval
+1. Merge changes into target branch
 
 {% endif %}
 

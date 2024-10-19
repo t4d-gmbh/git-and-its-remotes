@@ -30,11 +30,13 @@ However, some features are rather uinversally present{%if page %} and can be rou
 ```
 ```{include} ./collaboration_tools/milestones.md
 ```
-```{include} ./collaboration_tools/.md
+```{include} ./collaboration_tools/labels.md
 ```
 ```{include} ./collaboration_tools/activity_tracking.md
 ```
 ```{include} ./collaboration_tools/newsfeed_vs_githistory.md
+```
+```{include} ./collaboration_tools/note_on_collaboration.md
 ```
 ```{include} ./project_mgmt_tools.md
 ```

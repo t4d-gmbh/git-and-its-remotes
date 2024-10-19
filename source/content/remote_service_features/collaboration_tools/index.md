@@ -10,6 +10,7 @@
 ./milestones
 ./labels
 ./activity_tracking
+./note_on_collaboration
 
 ```
 {% endif %}
