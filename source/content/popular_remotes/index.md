@@ -8,7 +8,7 @@
 ./overview_popular_remotes
 ./github
 ./gitlab
-./bitbucket
+<!-- ./bitbucket -->
 ./remote_services_at_uzh_imathGitLab
 ./remote_services_at_uzh_uzhGitLab
 ./remote_services_at_uzh_uzhGithub
@@ -24,8 +24,8 @@
 ```
 ```{include} ./gitlab.md
 ```
-```{include} ./bitbucket.md
-```
+<!-- ```{include} ./bitbucket.md
+``` -->
 # Remote Services at the University
 ```{include} ./remote_services_at_uzh_imathGitLab.md
 ```
