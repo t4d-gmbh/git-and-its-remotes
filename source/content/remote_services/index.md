@@ -26,3 +26,15 @@ In this section, we will go over some of the key features of <i class="fab fa-gi
 > <i class="fab fa-git"></i>-based remote services (e.g. **GitHub**, **GitLab**) = web-based platforms that **offer additional features** to store and facilitate collaborative coding projects, extending tools offered by <i class="fab fa-git"></i>.
 :::
 {% endif %}
+
+{% if slide %}
+```{toctree}
+:maxdepth: 1
+:hidden:
+
+./list
+```
+{% else %}
+```{include} ./list.md
+```
+{% endif %}
