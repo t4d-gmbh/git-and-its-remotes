@@ -7,6 +7,5 @@ popular_remotes/index
 remote_service_features/index
 project_management/index
 organizing_and_more/index
-DevOps/index
 exercise/index
 ```
