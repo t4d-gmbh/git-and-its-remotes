@@ -1,4 +1,4 @@
-### {octicon}`git-pull-request;0.8em` Merge/Pull Requests
+#### {octicon}`git-pull-request;0.8em` Merge/Pull Requests
 &nbsp;
 ```{epigraph}
 Merge Request (<i class="fab fa-gitlab"></i>) or Pull Request (<i class="fab fa-github"></i>) are formal request by a developer to have their code changes merged from one branch into another branch
