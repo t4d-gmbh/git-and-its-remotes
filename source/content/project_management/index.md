@@ -10,17 +10,14 @@ In this course we will focus on transcribing this very general definition into t
 ```{toctree}
 :maxdepth: 2
 
-./workflow
-./milestones
+./git_plus_remote_tools
 ./feature_branch_reload/index
 
 ```
 {% else %}
 <!-- BUILDING THE PAGES -->
 <!-- build the page content here -->
-```{include} ./workflow.md
-```
-```{include} ./milestones.md
+```{include} ./git_plus_remote_tools.md
 ```
 ```{include} ./feature_branch_reload/index.md
 ```
