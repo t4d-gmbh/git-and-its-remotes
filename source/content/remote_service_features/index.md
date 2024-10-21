@@ -37,8 +37,6 @@ However, some features are rather uinversally present{%if page %} and can be rou
 ```
 ```{include} ./collaboration_tools/note_on_collaboration.md
 ```
-```{include} ./project_mgmt_tools.md
-```
 ```{include} ./access.md
 ```
 ```{include} ./ci_cd_feature.md
