@@ -5,8 +5,7 @@
 remote_services/index
 popular_remotes/index
 remote_service_features/index
-organizing_and_more/index
 project_management/index
-DevOps/index
+organizing_and_more/index
 exercise/index
 ```

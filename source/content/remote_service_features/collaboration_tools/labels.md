@@ -1,4 +1,4 @@
-### {octicon}`tag;0.8em` Labels
+#### {octicon}`tag;0.8em` Labels
 &nbsp;
 :::{epigraph}
 Allow to categorize and organize Issues and Merge/Pull Requests in a repository, helping developers to prioritize and track work more effectively.

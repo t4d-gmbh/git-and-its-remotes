@@ -1,4 +1,4 @@
-### Activity Tracking
+#### Activity Tracking
 
 :::{admonition} A {octicon}`git-pull-request;0.8em` News Feed {math}`\neq` <i class="fab fa-git"></i> history
 :class: warning, margin
