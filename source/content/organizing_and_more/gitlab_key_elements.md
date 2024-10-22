@@ -12,7 +12,7 @@ Individual accounts that can own Projects and roles in other Projects or (Sub-)G
 {% endif %}
 :::
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} <i class="fas fa-people-group"></i> Groups
-Collection of Users and Subgroups that can own Projects and [roles & permissions](https://docs.gitlab.com/ee/user/permissions.html) in other Projects or (Sub-)Groups
+Collection of Users and Subgroups that can own Projects and [roles & permissions](https://docs.gitlab.com/ee/user/permissions.html) in other Projects or (Sub-)Groups.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -24,7 +24,7 @@ Collection of Users and Subgroups that can own Projects and [roles & permissions
 {% endif %}
 :::
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} <i class="fas fa-people-roof"></i> Subgroups
-Individual accounts that can own repositories and roles other repositories or (sub-)groups.
+A Group that is owned by a parent Group inheriting its members.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
