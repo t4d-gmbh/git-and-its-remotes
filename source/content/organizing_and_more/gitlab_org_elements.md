@@ -11,7 +11,7 @@ In **GitLab** nested usergroups are used to manage access rights to <i class="fa
 :maxdepth: 2
 
 ./gitlab_key_elements
-./gitlab_acad_setup
+./gitlab_org_setup
 
 ```
 {% else %}
@@ -19,7 +19,7 @@ In **GitLab** nested usergroups are used to manage access rights to <i class="fa
 <!-- build the page content here -->
 ```{include} ./gitlab_key_elements.md
 ```
-```{include} ./gitlab_acad_setup.md
+```{include} ./gitlab_org_setup.md
 ```
 ```{include} ./gitlab_setup_usage.md
 ```

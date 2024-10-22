@@ -1,4 +1,4 @@
-### An organization on **GitLab**
+### Setting up an Organization
 
 {% if page %}
 :::{margin} <i class="fab fa-gitlab"></i> Roles:
