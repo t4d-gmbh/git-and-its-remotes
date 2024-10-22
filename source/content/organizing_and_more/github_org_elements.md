@@ -1,6 +1,6 @@
-## GitHub's Organization Structure
+## <i class="fab fa-github"></i> **GitHub**'s Organization Structure
 
-### GitHub's Key Elements
+### Key Elements
 
 {% if page %}::::{tabs}{% endif %}
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} Owners

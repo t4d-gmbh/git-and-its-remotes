@@ -1,5 +1,7 @@
 # Organizing Projects
 
+Remote services typically offer various management features that k
+
 {% if build == "slides" %}
 <!-- BUILDING THE SLIDES -->
 ```{toctree}
@@ -8,6 +10,7 @@
 ./example_situation_accademia
 ./github_org_elements
 ./gitlab_org_elements
+./differences
 
 ```
 {% else %}
@@ -18,5 +21,7 @@
 ```{include} ./github_org_elements.md
 ```
 ```{include} ./gitlab_org_elements.md
+```
+```{include} ./differences.md
 ```
 {% endif %}
