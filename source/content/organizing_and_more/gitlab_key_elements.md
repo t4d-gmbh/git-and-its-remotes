@@ -20,6 +20,7 @@ Collection of Users and Subgroups that can own Projects and [roles & permissions
 - Contain a collection of Users (i.e. Members) with individual roles (i.e. access rights)
 - Can own Subgroups
 - Allow for centralized management of permissions and settings.
+- Provide management tools, like milestones and Kanban boarads to manage all Issues and Merge Requests of related Projects.
 ```
 {% endif %}
 :::
@@ -30,11 +31,7 @@ A Group that is owned by a parent Group inheriting its members.
 :class: tip, dropdown
 - Nested groups within a parent (Sub-)Group.
 - Inherit Users along with their roles from all parent (Sub-)Groups.
-- Contain a collection of Users (i.e. Members) with individual roles (i.e. access rights)
-- Can own Projects and be assigned different [roles & permissions](https://docs.gitlab.com/ee/user/permissions.html) within other (Sub-)Groups and Projects.
-- Contain a collection of Users (i.e. Members) with individual roles (i.e. access rights)
-- Can own Subgroups
-- Allow for centralized management of permissions and settings.
+- Share all other features of Groups
 ```
 {% endif %}
 :::
