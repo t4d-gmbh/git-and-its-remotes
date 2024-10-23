@@ -3,7 +3,7 @@
 (_or **![issue](./icons/issue.svg) Issues**_ for <i class="fab fa-gitlab"></i>)
 
 ```{epigraph}
-Allow to document and track tasks, bugs and any kind of work that needs to be addressed in a repository.
+Allow to document and track tasks, bugs, thoughts, questions, and any kind of work that needs to be addressed in a repository.
 ```
 {% if page %}
 An issue allows to document all planned changes, discovered bugs, questions related to the repository, etc.
@@ -30,5 +30,5 @@ Generally, any problem, question, or proposition that needs to be addressed can 
 | **Assignees**   | {% if slide %}A designated **responsible for managing** this issue.{% else %}Issues can be assigned to specific team members to clarify tasks and responsibilities and facilitate project management.{% endif %}                                      |
 | **State**       | {% if slide %}Either {octicon}`issue-opened` **opened** or {octicon}`issue-closed` **closed**{% else %}To track progress on an issue, generally they can have two states {octicon}`issue-opened` “open” (still to be resolved) and {octicon}`issue-closed` “closed” (issue has been resolved).{% endif %} |
 | **Labels**      | {% if slide %}A set of arbitrary labels{% else %}Issues can be categorized using labels, e.g., “bug”, “documentation”, etc., to help organize and prioritize work.{% endif %}                                             |
-| **News Feed**    | {% if slide %}A **chat like activity feed** that allows commenting{% else %}Issues provide an activity or news feed, that displays any related changes and that anyone with can access and write comments to offer insights, feedback, and exchange ideas on how to resolve an issue.{% endif %}                             |
+| **News Feed**    | {% if slide %}A **chat like activity feed** that allows commenting{% else %}Issues provide an activity or news feed, that displays any related changes (e.g. commits) and that anyone with can access and write comments to offer insights, feedback, and exchange ideas on how to resolve an issue.{% endif %}                             |
 | **Milestone**  | {% if slide %}Affiliation to a {octicon}`milestone;0.8em` Milestone{% else %}Issues can be grouped under milestones and be integrated into an overarching planning, even between repositories for some remote services.{% endif %}   |
