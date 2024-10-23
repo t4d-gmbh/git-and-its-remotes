@@ -1,6 +1,13 @@
 # Organizing Projects
+{% if page %}
+Remote services provide a range of management features that extend beyond individual <i class="fab fa-git"></i> repositories. These features include robust tools for project management and access control. They typically offer various methods to organize developers and other contributors into entities with defined roles and permissions within the platform.
 
-Remote services typically offer various management features that k
+In this section, we will explore how <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab** enable the structuring of contributor groups, highlighting how each platform's approach enhances access management and fosters collaboration.
+{% else %}
+Remote services like <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab**  provide management features that **organize contributors into entities with defined roles and permissions**, enhancing access management and collaboration.
+{% endif %}
+
+
 
 {% if build == "slides" %}
 <!-- BUILDING THE SLIDES -->
