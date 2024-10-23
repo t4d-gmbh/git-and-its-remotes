@@ -1,6 +1,6 @@
 ## <i class="fab fa-gitlab"></i> **GitLab**'s Organization Structure
 {% if page %}**GitLab** implements a nesting approach when it comes to access rights and structuring multiple projects and related users.
-In doing so relates on only two building blocks, Users and (Sub-)Groups, for managing access rights.{% endif %}
+It relies on only two building blocks, Users and (Sub-)Groups, for managing access rights.{% endif %}
 &nbsp;
 ```{epigraph}
 In **GitLab** nested usergroups are used to manage access rights to <i class="fab fa-git"></i> repositories.
