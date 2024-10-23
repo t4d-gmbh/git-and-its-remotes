@@ -57,6 +57,6 @@ For a small organization, like a research group or small company, we suggest the
 
 {% if page %}##### {% endif %}4. **Gradually <i class="fas fa-universal-access"></i> escalate Privileges**{% if slide %} Members of Subgroups should be able to take advantage of **GitLab**'s features
 {% else %}
-  - Elevate the privileges of Users in Subgroups to make sure that the members of a Subgroup can take advantage of **GitLab**'s remote features to the fullest extent.
+  - Elevate the privileges of <i class="fas fa-user"></i> Users in Subgroups to make sure that the members of a Subgroup can take advantage of **GitLab**'s remote features to the fullest extent.
   - Think of re-inviting members of parent (Sub-)Groups to elevate their roles.
 {% endif %}

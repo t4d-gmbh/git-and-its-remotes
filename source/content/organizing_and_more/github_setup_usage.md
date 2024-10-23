@@ -12,4 +12,5 @@ In an academic context, GitHub's organization structure can be leveraged to stre
 
 #### Collaborating with External Partners
 
-Invite collaborators to specific repositories or teams within the organization, enabling them to contribute to the project. This can be particularly useful when working with industry partners, other research groups, or open-source communities.
+Invite collaborators to specific {octicon}`repo`repositories within the {octicon}`organization`Organization, enabling them to contribute to the project. 
+This can be particularly useful when working with industry partners, other research groups, or open-source communities.

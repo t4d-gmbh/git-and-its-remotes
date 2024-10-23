@@ -26,7 +26,7 @@ For a small organization, like a research group or small company, we suggest the
 {% if page %}##### {% endif %}1. **Create a {octicon}`organization` Organization** {% if slide %} Invite all permanent research group members with "Write" or "Maintain" Roles.
 {% else %}
   - Create a new Organization to represent your research group.
-    :::{note} Assign multiple Owners to the Organization
+    :::{note} Assign multiple Owners to the Organization.
     If an organization only has one owner, the organization's projects can become inaccessible if the owner is unreachable.
     :::
   - Unlike in GitLab, the visibility of an Organization in GitHub is always public. However, repositories owned by the Organization can be private.
@@ -38,12 +38,12 @@ This can be useful for managing permissions and access to repositories.
   - Create Teams to represent different research groups, projects, or labs within the Organization.
   - Assign members to the Teams based on their roles and responsibilities.
     :::{tip}
-    Assign two or more Organization members as Team Maintainers to help manage the Team's settings and permissions.
+    Assign two or more Organization members as *Team Maintainers* to help manage the Team's settings and permissions.
     :::
   - Teams can be nested within other Teams to reflect the research group's hierarchy.
 {% endif %}
 
-{% if page %}##### {% endif %}3. **Invite additional {octicon}`person` Users** {% if slide %} Add ext. collaborators and temp. members directly to Teams.
+{% if page %}##### {% endif %}3. **Invite additional {octicon}`person` Users** {% if slide %} Add ext. collaborators and temp. members who are not part of your {octicon}`organization` Organization directly to {octicon}`repo` Repositories.
 {% else %}
-  - Add external collaborators and short-term members of your group directly into the corresponding Team.
+  - Add external collaborators who are not part of your {octicon}`organization`Organization directly to the corresponding {octicon}`repo`Repositories.
 {% endif %}
