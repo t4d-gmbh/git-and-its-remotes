@@ -13,6 +13,7 @@ Allows to perform steps **2** and **3** in a combined manner.
   - Acceptance criteria
   - Any relevant design mockups or specifications
   - Priority and estimated effort
+  - If it is a bug, include steps to reproduce and state the expected behavior
 {% endif %}
 
 {% if page %}##### {% endif %}2. **Create a Feature Branch** 🌿{% if slide %} Branch from healthy reference{% endif%}
