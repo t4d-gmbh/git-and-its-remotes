@@ -1,4 +1,4 @@
-# Exercie
+# Exercise
 
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
