@@ -4,7 +4,7 @@
 {% else %} 
    - Browse existing Issues - {octicon}`issue-opened;0.8em` open and {octicon}`issue-closed;0.8em` closed ones - to see if the same or a similar Issue was already created.
    - If your Issue exists already, check for related Merge/Pull Requests and if they implement what you had in mind.
-     If not, scip the next step (i.e. don't create a new {octicon}`issue-opened;0.8em` Issue) and simply proceed with step 3. **Read Documentation**.
+     If not, skip the next step (i.e. don't create a new {octicon}`issue-opened;0.8em` Issue) and simply proceed with step 3. **Read Documentation**.
 {% endif %}
 
 {% if page %}##### {% endif %}2. **Open an {octicon}`issue-opened;0.8em` Issues** 📝{% if slide %} Explain why some work needs to be done.
@@ -31,7 +31,7 @@
      For smaller changes you might directly work on the healthy reference (i.e. **`main`**) of the forked repository.
      Bigger changes should be implemented in a separate branch following the feature branch approach, for example.
    - Follow the project's coding style and guidelines.
-   - Make sure the branch you implement the changes in remains up to date with the target branch from to repository.
+   - Make sure the branch on which you implement the changes, remains up to date with the target branch from to repository.
    - Test and document your changes.
 {% endif %}
 
@@ -48,11 +48,11 @@
 {% else %}
    - Engage with project maintainers and other contributors during the review process.
    - Be open to feedback and make any necessary revisions.
-   - Respect the maintainers decisions and adaptations, if you are not happy with them you can alwasy keep your forked repository and maintain it on your own!
+   - Respect the maintainers decisions and adaptations, if you are not happy with them you can always keep your forked repository and maintain it on your own!
 {% endif %}
 
 {% if page %}#### {% endif %}8. 🌟 **Stay Engaged** 🌟{% if slide %}
 {% else %}
-   - Once the Merge/Pull Request is merged or closed, feel free to delete your fork of the repository again.
+   - Once the Merge/Pull Request is merged or closed, feel free to delete your fork of the repository. This avoids confusion about which repository is the most up-to-date.
    - Continue to contribute to the project by helping with other issues or discussions.
 {% endif %}
