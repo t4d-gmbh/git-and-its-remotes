@@ -46,12 +46,16 @@ Pull / Merge Request workflow:
 1. Create branch
 1. Commit changes (any work done on the branch)
 1. Push branch into remote repository
-1. Create Pull / Merge Request to propose the changes from the source to the target branch
+1. Create Pull / Merge Request to propose the changes from the source to the target branch {% if page %}[^sn1]{% endif %}
 1. Review and Feedback, requesting additional changes as needed
 1. Rebase or merge target branch to include its most recent state
 1. Automated Testing run to ensure the changes don’t introduce bugs or other problems
 1. Approval
 1. Merge changes into target branch
+
+{% if page %}
+[^sn1]: Some IDEs offer a direct way to create a Pull / Merge Request from within the IDE. E.g. for Visual Studio Code, there is the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) or the [GitLab Workflow extension](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow).
+{% endif %}
 
 {% endif %}
 
