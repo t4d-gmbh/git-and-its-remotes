@@ -18,6 +18,11 @@ Here's how it might look:
 - **Progress Tracking**: Track the research project's progress using Issues, issue boards (which can aggregate all Issues in a Subgroup), and Merge Requests within the repositories.
   This would help in managing tasks, tracking Milestones, and reviewing contributions from team members.
 
+  :::{note}
+  In some cases, the administrative hierarchy of the faculty is not suitable to be mirrored in **GitLab**'s Group/Subgroup structure. 
+  For example, if a faculty member is barely involved in hands-on research, a second Group-Owner might relieve them of the burden of managing **GitLab** access rights.
+  :::
+
 ### Collaborating with External Partners
 
 Invite collaborators to specific Projects or Subgroups within the Group, enabling them to contribute to a project.
