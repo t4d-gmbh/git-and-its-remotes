@@ -3,7 +3,7 @@
 ### Key Elements
 
 {% if page %}::::{tabs}{% endif %}
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} <i class="fas fa-user"></i> Users
+{% if page %}:::{tab}{% else %}:::{card}{% endif%} {octicon}`person` Users
 Individual accounts that can own Organizations, (nested-)Teams, and Repositories.
 They can be assigned to different project management elements and roles like {octicon}`issue-opened` Issues, {octicon}`git-pull-request` Pull Requests, {octicon}`milestone` Milestones, {octicon}`project`Projects, etc.
 {% if page %}
@@ -14,7 +14,7 @@ They can be assigned to different project management elements and roles like {oc
 ```
 {% endif %}
 :::
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} <i class="fas fa-people-roof"></i> Organizations
+{% if page %}:::{tab}{% else %}:::{card}{% endif%} {octicon}`organization` Organizations
 Shared accounts for collaboration across multiple projects. 
 
 {% if page %}
@@ -24,7 +24,7 @@ They are a collection of repositories and users. In academia, they can provide a
 ```
 {% endif %}
 :::
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} <i class="fas fa-people-group"></i> Teams
+{% if page %}:::{tab}{% else %}:::{card}{% endif%} {octicon}`people` Teams
 Teams are groups of organization members (not outside collaborators) with access to specific repositories. 
 To reflect a group's hierarchy, teams can be nested within other teams.
 Child teams inherit the permissions of their parent team. 
@@ -52,9 +52,9 @@ Repositories can be public or private and can be used to organize and manage pro
 
 In an academic context, GitHub's organization structure can be leveraged to streamline collaboration and project management. Here's how it might look:
 
-- <i class="fas fa-people-roof"></i> **Organization Creation**: Your university's research lab could create an organization on GitHub to host various research projects. The faculty members could be the owners of the organization, overseeing the projects and managing access.
+- {octicon}`organization` **Organization Creation**: Your university's research lab could create an organization on GitHub to host various research projects. The faculty members could be the owners of the organization, overseeing the projects and managing access.
 
-- <i class="fas fa-people-group"></i> **Team Formation**: Create teams within the organization for different research groups or projects. Each team would have access to specific repositories based on their roles and responsibilities. This might be useful for managing permissions and collaboration within the lab. For example, a team of students working on a specific project could have access to the corresponding repository.
+- {octicon}`people` **Team Formation**: Create teams within the organization for different research groups or projects. Each team would have access to specific repositories based on their roles and responsibilities. This might be useful for managing permissions and collaboration within the lab. For example, a team of students working on a specific project could have access to the corresponding repository.
 
 - {octicon}`repo` **Repository Management**: Each research project could have its own repository within the organization (or multiple repositories). These repositories could contain code, data, manuscripts, and other project-related files. By using repositories, you can maintain version control, track changes, and collaborate effectively on research projects.
 
