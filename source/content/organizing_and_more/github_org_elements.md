@@ -23,10 +23,14 @@ They are a collection of repositories and users. In academia, they can provide a
 {% endif %}
 :::
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} Teams
-Teams are groups of organization members with access to specific repositories. {% if page %}
+Teams are groups of organization members (not outside collaborators) with access to specific repositories. 
+To reflect a group's hierarchy, teams can be nested within other teams.
+Child teams inherit the permissions of their parent team. 
+{% if page %}
 ```{admonition} Details
 :class: tip, dropdown
-Teams can be used to manage permissions and access to repositories. In an academic setting, teams can be created for a group of students working on a project or a research team collaborating on a paper.
+Hierarchies of Teams can be used to manage permissions and access to repositories. 
+In an academic setting, teams can be created e.g. for a group of students working on a project or a research team collaborating on a paper.
 ```
 {% endif %}
 :::

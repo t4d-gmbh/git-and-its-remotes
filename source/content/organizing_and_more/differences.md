@@ -11,7 +11,7 @@ What is refered to as {octicon}`project` Project in <i class="fab fa-github"></i
 
 | Feature                     | GitHub                                      | GitLab                                      |
 |-----------------------------|---------------------------------------------|---------------------------------------------|
-| **Access Control**          | Managed through Teams and Repository settings | Managed through Subgroups and Repository settings  |
+| **Access Control**          | Managed through nested Teams and Repository settings | Managed through Subgroups and Repository settings  |
 | **Permission Levels**       | Read, Triage, Write, Maintain, Admin       | Guest, Reporter, Developer, Maintainer, Owner |
-| **Inheritance**             | Permissions can be inherited from organization-level settings | Subgroups inherit permissions from parent (Sub-)Groups, but cannot revoke them |
+| **Inheritance**             | Permissions are inherited from organization-level settings to Teams and child-Teams. | Subgroups inherit permissions from parent (Sub-)Groups, but cannot revoke them |
 | **Additional Rights**       | Can assign different permissions to Teams   | Can grant additional rights in Subgroups   |

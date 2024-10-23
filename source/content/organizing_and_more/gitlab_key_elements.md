@@ -20,7 +20,7 @@ Collection of Users and Subgroups that can own Projects and [roles & permissions
 - Contain a collection of Users (i.e. Members) with individual roles (i.e. access rights)
 - Can own Subgroups
 - Allow for centralized management of permissions and settings.
-- Provide management tools, like milestones and Kanban boarads to manage all Issues and Merge Requests of related Projects.
+- Provide management tools, like milestones and Kanban boards to manage all Issues and Merge Requests of related Projects.
 ```
 {% endif %}
 :::
