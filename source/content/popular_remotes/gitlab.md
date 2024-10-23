@@ -1,4 +1,4 @@
-## GitLab
+## GitLab <i class="fab fa-gitlab"></i>
 
 GitLab is a popular, open-source platform for hosting and managing code repositories, offering comprehensive DevOps features for collaboration, issue tracking, and CI/CD workflows. 
 Founded in 2011, GitLab is compared to GitHub fully open-source and provides a similar feature set that supports the entire software development lifecycle but has a stronger focus on self-hosted and on-premise installations.
