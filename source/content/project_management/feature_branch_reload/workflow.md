@@ -7,8 +7,8 @@ Allows to perform steps **2** and **3** in a combined manner.
 {% if page %}##### {% endif %}1. **Create an Issue** 📝{% if slide %} Define and plan feature{% endif %}
 {% if page %}
 - **Identify the Feature**: Start by identifying the feature you want to develop.
-- **Check for similar Issues**: It is always a good practice check for existing Issues, no need to create duplicates if an identical or similar Issue already exists.
-- **Create an Issue**: Include details:
+- **Check for similar Issues**: It is always a good practice check for existing Issues; there's no need to create duplicates if an identical or similar Issue already exists.
+- **Formulate the Issue**: Include details:
   - Description of the feature
   - Acceptance criteria
   - Any relevant design mockups or specifications
