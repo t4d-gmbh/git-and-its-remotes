@@ -1,4 +1,4 @@
-### Non-Exhaustive Overview
+### Non-Exhaustive Overview of <i class="fab fa-git"></i> Hosting Services
 
 | Service Name       | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
@@ -12,6 +12,6 @@
 | <i class="fab fa-github"></i> **[GitHub](https://github.com)**         | A widely used platform for hosting <i class="fab fa-git"></i> repositories{% if page %} with social coding features and CI/CD through GitHub Actions{% endif %}. |
 | <i class="fab fa-gitlab"></i> **[GitLab](https://gitlab.com)**         | A widely used platform for hosting <i class="fab fa-git"></i> repositories{% if page %} offering repository hosting, CI/CD, issue tracking, and DevOps tools{% endif %}. |
 | <i class="fab fa-gitkraken"></i> **[GitKraken](https://www.gitkraken.com)** | {% if slide %}Primarily a <i class="fab fa-git"></i> client that also offers hosting.{% else %}Primarily a <i class="fab fa-git"></i> client, GitKraken also offers <i class="fab fa-git"></i> hosting through its GitKraken Boards feature.{% endif %} |
-| <i class="far fa-square"></i> **[Gogs](https://gogs.io)**               | A self-hosted <i class="fab fa-git"></i> service similar to Gitea{% if page %}, designed to be simple and efficient{% endif %}. |
 | <i class="far fa-square"></i> **[Launchpad](https://launchpad.net)**    | {% if slide %}Developed by Canonical, primarily used for open-source projects.{% else %}A platform developed by Canonical for hosting <i class="fab fa-git"></i> repositories, primarily used for open-source projects.{% endif %} |
 | <i class="far fa-square"></i> **[SourceForge](https://sourceforge.net)** | An older platform providing <i class="fab fa-git"></i> repository hosting{% if page %} along with project management tools and issue tracking{% endif %}. |
+<!-- | <i class="far fa-square"></i> **[Gogs](https://gogs.io)**               | A self-hosted <i class="fab fa-git"></i> service similar to Gitea{% if page %}, designed to be simple and efficient{% endif %}. | -->

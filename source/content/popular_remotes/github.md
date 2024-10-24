@@ -1,6 +1,10 @@
-## GitHub
+## GitHub <i class="fab fa-github"></i>
 
-GitHub is a leading platform for hosting and managing code repositories, enabling collaboration, issue tracking, and CI/CD workflows. Founded in 2008 and acquired by Microsoft in 2018, it is known for its user-friendly interface and extensive community support.
+GitHub is a leading platform for hosting and managing code repositories, enabling collaboration, issue tracking, and CI/CD workflows. Founded in 2008 and acquired by Microsoft in 2018{% if page %}[^sn1]{% endif %}, it is known for its user-friendly interface and extensive community support.
+
+{% if page %}
+[^sn1]: Before the acquisition, GitHub was an open-source platform, and the acquisition raised concerns about the platform's future direction and lead to an exodus of users to other platforms like GitLab.
+{% endif %}
 
 **Pros:**
 - User-friendly interface
