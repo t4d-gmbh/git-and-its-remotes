@@ -9,7 +9,7 @@ As such, the web interface porvides:
 Access to remote features and visualization of a variety of <i class="fab fa-git"></i>'s own features 
 ```
 
-Regarding visualizations for <i class="fab fa-git"></i> features, we provide some specific links to these views for our **Weekend-Out** exercise repository that resides both [on <i class="fab fa-github"></i> **GitHub**](https://github.com/t4d-gmbh/Weekend-Out) and [on <i class="fab fa-gitlab"></i> **GitLab**](https://github.com/t4d-gmbh/Weekend-Out).
+Regarding visualizations for <i class="fab fa-git"></i> features, we provide some specific links to these views for our **Weekend-Out** exercise repository that resides both [on <i class="fab fa-github"></i> **GitHub**](https://github.com/t4d-gmbh/Weekend-Out) and [on <i class="fab fa-gitlab"></i> **GitLab**](https://gitlab.com/t4d-gmbh/teaching/gitws/weekend-out).
 
 | Feature            | GitLab Link                                                                                     | GitHub Link                                                                                   |
 |--------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
