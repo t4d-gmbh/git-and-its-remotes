@@ -29,10 +29,16 @@ Compared to the News Feed, it does not provide real-time updates or notification
 
 {% else %}
 
-- **News Feed**: Overview of repository activities (commits, pull requests, issues, comments). Useful for quick updates and collaboration.
-- **Git History**: Detailed record of codebase changes (commits, branches, merges). Useful for understanding project evolution and debugging.
-
+::::{grid}
+:::{grid-item-card} News Feed
+Overview of **repository activities** (commits, pull requests, issues, comments). 
+Useful for quick *updates* and *collaboration*.
 ![GitHub News Feed](../assets/images/github_news_feed.png)
+:::
+:::{grid-item-card} <i class="fab fa-git"></i> History
+Detailed record of **codebase changes** (commits, branches, merges). 
+Useful for understanding project *evolution* and *debugging*.
 ![Git Log Graph](../assets/images/git_log_graph.png)
+:::
 
 {% endif %}
