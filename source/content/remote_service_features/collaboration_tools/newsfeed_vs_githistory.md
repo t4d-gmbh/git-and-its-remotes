@@ -1,5 +1,7 @@
 #### News Feed ⚡ <i class="fab fa-git"></i> History
 
+{% if pages %}
+
 The <i class="fab fa-github"></i> or <i class="fab fa-gitlab"></i> News Feed provides a broad overview of recent activities, the <i class="fab fa-git"></i> History provides a detailed and structured view of the project’s evolution. 
 Both tools help to track changes, discuss ideas, understand references to related topic (issues, merge/pull requests, etc.) and make project management and collaboration more efficient.
 
@@ -24,3 +26,13 @@ This can be helpful for debugging issues, reverting changes, and understanding t
 ![Git Log Graph](../assets/images/git_log_graph.png)
 
 Compared to the News Feed, it does not provide real-time updates or notifications about recent activities and interactions.
+
+{% else %}
+
+- **News Feed**: Overview of repository activities (commits, pull requests, issues, comments). Useful for quick updates and collaboration.
+- **Git History**: Detailed record of codebase changes (commits, branches, merges). Useful for understanding project evolution and debugging.
+
+![GitHub News Feed](../assets/images/github_news_feed.png)
+![Git Log Graph](../assets/images/git_log_graph.png)
+
+{% endif %}
