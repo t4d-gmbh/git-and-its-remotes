@@ -1,8 +1,8 @@
 ### Access Control
 {% if page %}
-This is a crucial feature remote services provide and is handled somewhat somewhat differently between remotes, unfortunately.
+This is a crucial feature remote services provide and is handled somewhat somewhat differently between remote service providers, unfortunately.
 
-We will discuss this feature in some more detail in the section [Oranizing Projects](../organizing_and_more/index.md#organizing-projects) but in short:
+We will discuss this feature in some more detail in the section [Organizing Projects](../organizing_and_more/index.md#organizing-projects) but in short:
 {% endif %}
 
 Remote services like <i class="fab fa-gitlab"></i> GitLab and <i class="fab fa-github"></i> GitHub, do not just allow repository owners to give access to a repository they host, but they offer:
@@ -11,3 +11,4 @@ Remote services like <i class="fab fa-gitlab"></i> GitLab and <i class="fab fa-g
 - provide controlled **access on organisational levels** ranging over multiple repositories
 - allow to **further distribute access** rights
 - **protect certain resources** (e.g protected `main` branch)
+- **automate access control** by integrating with enterprise identity providers.

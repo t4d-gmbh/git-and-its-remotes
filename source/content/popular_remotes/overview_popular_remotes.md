@@ -10,12 +10,12 @@ They allow multiple users to work on the same project simultaneously, track chan
 
 | **Remote Service** | **Founded** | **Acquired/Owned by** | **Popularity** | **Key Features** | **Costs** |
 |--------------------|-------------|-----------------------|----------------|------------------|-----------|
-| **GitHub** ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)   | 2008        | Microsoft (2018)      | Widely used by open-source communities and enterprises.<br>Known for its user-friendly interface and extensive community support. | - **Repository hosting**<br>- **Pull requests**<br>- **Issues and bug tracking**<br>- **Wikis**<br>- GitHub Actions for CI/CD<br>- Project boards | Free for public repositories, paid plans for private repositories and additional features. |
-| **GitLab** ![GitLab Logo](https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png) | 2011        | -                     | Popular among developers and enterprises.<br>Known for its open-source nature and flexibility. | - **Repository hosting**<br>- **Merge requests**<br>- **Issues and bug tracking**<br>- **Wikis**<br>- **Integrated CI/CD**<br>- Web IDE<br>- Workspaces | Free tier, paid plans for additional features and support. |
+| **GitHub** <i class="fab fa-github" style="font-size:50px;"></i>   | 2008        | Microsoft (2018)      | Widely used by open-source communities and enterprises.<br>Known for its user-friendly interface and extensive community support. | - **Repository hosting**<br>- **Pull requests**<br>- **Issues and bug tracking**<br>- **Wikis**<br>- GitHub Actions for CI/CD<br>- Project boards | Free for public repositories, paid plans for private repositories and additional features. |
+| **GitLab** <i class="fab fa-gitlab" style="font-size:50px;"></i> | 2011        | -                     | Popular among developers and enterprises.<br>Known for its open-source nature and flexibility. | - **Repository hosting**<br>- **Merge requests**<br>- **Issues and bug tracking**<br>- **Wikis**<br>- **Integrated CI/CD**<br>- Web IDE<br>- Workspaces | Free tier, paid plans for additional features and support. |
 
   {% else %}
 
-| **Aspect** | **GitHub** | **GitLab** |
+| **Aspect** | **GitHub** <i class="fab fa-github"></i> | **GitLab** <i class="fab fa-gitlab"></i> |
 |------------|------------|------------|
 | <span style="font-size:14px;">**Repository Hosting**</span>  | <span style="font-size:14px;">Yes</span> | <span style="font-size:14px;">Yes</span> |
 | <span style="font-size:14px;">**Pull Requests/Merge Requests**</span> | <span style="font-size:14px;">Pull Requests</span> | <span style="font-size:14px;">Merge Requests</span> |

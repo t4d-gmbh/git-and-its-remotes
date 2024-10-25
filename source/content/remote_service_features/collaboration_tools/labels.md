@@ -6,9 +6,11 @@ Allow to categorize and organize Issues and Merge/Pull Requests in a repository,
 
 {% if page %}
 Labels are a great help for prioritizing, categorizing and navigate through Issues and Merge/Pull Requests.
-On some remotes Labels can be reused between repositories leading to a consistent labeling between repositories.
+On some remote service providers, Labels can be reused between repositories leading to a consistent labeling between repositories.
 
-One thing that should be noted, is that {octicon}`tag;0.8em` Labels do not exist in <i class="fab fa-git"></i> and so they have absolutely noting in common with {octicon}`tag;0.8em` Tags in <i class="fab fa-git"></i>.
+One thing that should be noted, is that {octicon}`tag;0.8em` Labels do not exist in <i class="fab fa-git"></i> and so they have absolutely nothing in common with {octicon}`tag;0.8em` Tags in <i class="fab fa-git"></i>.
+{% else %}
+<i class="fab fa-github"></i> {octicon}`tag;0.8em` Labels <i class="fa-solid fa-not-equal"></i> <i class="fab fa-git"></i> {octicon}`tag;0.8em` Tags!
 {% endif %}
 
 :::{admonition} Create scoped Labels

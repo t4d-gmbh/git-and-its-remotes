@@ -26,7 +26,7 @@
 ```
 <!-- ```{include} ./bitbucket.md
 ``` -->
-# Remote Services at the University
+# Remote Services at the University of Zurich
 ```{include} ./remote_services_at_uzh_imathGitLab.md
 ```
 ```{include} ./remote_services_at_uzh_uzhGitLab.md
