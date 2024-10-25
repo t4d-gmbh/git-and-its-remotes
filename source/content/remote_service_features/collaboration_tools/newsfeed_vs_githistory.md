@@ -1,6 +1,6 @@
 #### News Feed ⚡ <i class="fab fa-git"></i> History
 
-{% if pages %}
+{% if build == "pages" %}
 
 The <i class="fab fa-github"></i> or <i class="fab fa-gitlab"></i> News Feed provides a broad overview of recent activities, the <i class="fab fa-git"></i> History provides a detailed and structured view of the project’s evolution. 
 Both tools help to track changes, discuss ideas, understand references to related topic (issues, merge/pull requests, etc.) and make project management and collaboration more efficient.
