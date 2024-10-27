@@ -23,7 +23,7 @@ GitHub Enterprise Cloud offers additional security features and compliance tools
 
 For a small organization, like a research group or small company, we suggest the following approach:
 
-{% if page %}##### {% endif %}1. **Create a {octicon}`organization` Organization** {% if slide %} Invite all permanent research group members with "Write" or "Maintain" Roles.
+{% if page %}##### {% endif %}1. **Create an {octicon}`organization` Organization**: {% if slide %} Invite all permanent research group members with "Write" or "Maintain" Roles.
 {% else %}
   - Create a new Organization to represent your research group.
     :::{note} Assign multiple Owners to the Organization.
@@ -32,7 +32,7 @@ For a small organization, like a research group or small company, we suggest the
   - Unlike in GitLab, the visibility of an Organization in GitHub is always public. However, repositories owned by the Organization can be private.
 {% endif %}
 
-{% if page %}##### {% endif %}2. **Create {octicon}`people` Teams** {% if slide %} Represent your research-groups hierarchy with Teams and Teams-of-Teams (child Teams). 
+{% if page %}##### {% endif %}2. **Create {octicon}`people` Teams**: {% if slide %} Represent your research-groups hierarchy with Teams and Teams-of-Teams (child Teams). 
 This can be useful for managing permissions and access to repositories.
 {% else %}
   - Create Teams to represent different research groups, projects, or labs within the Organization.
@@ -43,7 +43,7 @@ This can be useful for managing permissions and access to repositories.
   - Teams can be nested within other Teams to reflect the research group's hierarchy.
 {% endif %}
 
-{% if page %}##### {% endif %}3. **Invite additional {octicon}`person` Users** {% if slide %} Add ext. collaborators and temp. members who are not part of your {octicon}`organization` Organization directly to {octicon}`repo` Repositories.
+{% if page %}##### {% endif %}3. **Invite additional {octicon}`person` Users**: {% if slide %} Add external collaborators and temporary members who are not part of your {octicon}`organization` Organization directly to {octicon}`repo` Repositories.
 {% else %}
   - Add external collaborators who are not part of your {octicon}`organization`Organization directly to the corresponding {octicon}`repo`Repositories.
 {% endif %}
