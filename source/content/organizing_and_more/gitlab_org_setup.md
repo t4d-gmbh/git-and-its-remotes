@@ -16,7 +16,7 @@ The key aspect to take into account is the inheritance of Members (i.e. Users) a
 
 For a small organization, like a research group or small company, we suggest the following approach:
 
-{% if page %}##### {% endif %}1. **Create a <i class="fas fa-people-group"></i> Group** {% if slide %} Invite all permanent group members as "Developer" or "Reporter".
+{% if page %}##### {% endif %}1. **Create a <i class="fas fa-people-group"></i> Group**: {% if slide %} Invite all permanent group members as "Developer" or "Reporter".
 {% else %}
   - Create a new Group to represent your organization.
   - Set the [visibility level](https://docs.gitlab.com/ee/user/public_access.html).
@@ -33,7 +33,7 @@ For a small organization, like a research group or small company, we suggest the
     We recommend to have more than one [Owner and some Maintainers](https://docs.gitlab.com/ee/user/permissions.html#repository).
 {% endif %}
 
-{% if page %}##### {% endif %}2. **Create <i class="fas fa-people-roof"></i> Subgroups** {% if slide %} With designated Owners for distinct research areas, projects, labs, etc.
+{% if page %}##### {% endif %}2. **Create <i class="fas fa-people-roof"></i> Subgroups** {% if slide %} with designated Owners for distinct research areas, projects, labs, etc.
 {% else %}
   - Fill in the short description to clarify what this Subgroup is about.
   - Designate 1-2 Users with elevated privileged (i.e. designate another Owner and maybe some Maintainers)
@@ -47,7 +47,7 @@ For a small organization, like a research group or small company, we suggest the
     :::
 {% endif %}
 
-{% if page %}##### {% endif %}3. **Invite additional <i class="fas fa-user"></i> Users** {% if slide %} Add ext. collaborators and temp. members directly to Subgroups
+{% if page %}##### {% endif %}3. **Invite additional <i class="fas fa-user"></i> Users**: {% if slide %} Add external collaborators and temporary members directly to Subgroups
 {% else %}
   - Add external collaborators and short-term members of your group directly into the corresponding Subgroups.
     :::{tip}
@@ -55,7 +55,7 @@ For a small organization, like a research group or small company, we suggest the
     :::
 {% endif %}
 
-{% if page %}##### {% endif %}4. **Gradually <i class="fas fa-universal-access"></i> escalate Privileges**{% if slide %} Members of Subgroups should be able to take advantage of **GitLab**'s features
+{% if page %}##### {% endif %}4. **Gradually <i class="fas fa-universal-access"></i> escalate Privileges**. {% if slide %} Members of Subgroups should be able to take advantage of **GitLab**'s features
 {% else %}
   - Elevate the privileges of <i class="fas fa-user"></i> Users in Subgroups to make sure that the members of a Subgroup can take advantage of **GitLab**'s remote features to the fullest extent.
   - Think of re-inviting members of parent (Sub-)Groups to elevate their roles.
