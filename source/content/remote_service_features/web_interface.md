@@ -1,15 +1,15 @@
 ### Web Interface
 
 {% if page %}
-Most features remote hosting platforms offer, are accessible via a web interface, which exposes not just their specific features but also offers visualizations for <i class="fab fa-git"></i> specific functions.
-As such, the web interface porvides:
+Most features that remote hosting platforms offer are accessible via a web interface, which exposes not just their specific features but also offers visualizations for <i class="fab fa-git"></i> specific functions.
+Web interface provide:
 {% endif %}
 
 ```{epigraph}
-Access to remote features and visualization of a variety of <i class="fab fa-git"></i>'s own features 
+Web interface provide access to remote features and visualization of a variety of <i class="fab fa-git"></i>'s own features 
 ```
 
-Regarding visualizations for <i class="fab fa-git"></i> features, we provide some specific links to these views for our **Weekend-Out** exercise repository that resides both [on <i class="fab fa-github"></i> **GitHub**](https://github.com/t4d-gmbh/Weekend-Out) and [on <i class="fab fa-gitlab"></i> **GitLab**](https://gitlab.com/t4d-gmbh/teaching/gitws/weekend-out).
+Regarding visualizations for <i class="fab fa-git"></i> features, we provide some specific links to these views for our **Weekend Out** exercise repository that resides both [on <i class="fab fa-github"></i> **GitHub**](https://github.com/t4d-gmbh/Weekend-Out) and [on <i class="fab fa-gitlab"></i> **GitLab**](https://gitlab.com/t4d-gmbh/teaching/gitws/weekend-out).
 
 | Feature            | GitLab Link                                                                                     | GitHub Link                                                                                   |
 |--------------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
