@@ -1,5 +1,5 @@
 {% if build == "pages" %}
-## Possible Challenges Faced by Research Groups
+## Challenges Research Groupy May Encounter
 
 Imagine a research group at a university, bustling with brilliant minds and groundbreaking ideas. 
 However, their collaboration is hindered by a chaotic workflow. 
@@ -12,13 +12,12 @@ Data integrity is compromised, and integrating contributions from different team
 
 {% elif build == "slides" %}
 <!-- BUILDING THE SLIDES -->
-## Possible Challenges Faced by Research Groups
+## Challenges Research Groupy May Encounter
 
-- *Chaotic Workflow*: Inefficient collaboration despite brilliant ideas.
-- *Email Overload*: Attachments and code snippets lost in email chains.
-- *Version Control Issues*: Frequent overwriting of work, leading to frustration.
-- *Disorganized Task Management*: Lack of a clear system for monitoring progress or assigning duties.
-- *Lack of Standardized Documentation*: Difficult for new members to get up to speed; knowledge drain when members leave.
-- *Data Integrity Compromised*: Struggles with integrating contributions from different team members.
-
+- **Chaotic Workflow**: Brilliant ideas, but collaboration remains inefficient.
+- **Email Overload**: Attachments and code snippets get lost in endless email chains.
+- **Version Control Issues**: Frequent work overwrites, causing frustration.
+- **Disorganized Task Management**: No clear system for tracking progress or assigning responsibilities.
+- **Lack of Standardized Documentation**: New members struggle to get up to speed; knowledge is lost when team members leave.
+- **Compromised Data Integrity**: Challenges in integrating contributions from various team members.
 {% endif %}

@@ -23,9 +23,7 @@ They are a collection of repositories and users. In academia, they can provide a
 {% endif %}
 :::
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} {octicon}`people` Teams
-Teams are groups of organization members (not outside collaborators) with access to specific repositories. 
-To reflect a group's hierarchy, teams can be nested within other teams.
-Child teams inherit the permissions of their parent team. 
+Teams consist of members from the organization (not external collaborators) who have access to specific repositories. To reflect a group's hierarchy, teams can be nested within other teams, with child teams inheriting the permissions of their parent teams. 
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
