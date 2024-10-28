@@ -7,6 +7,10 @@
      If not, skip the next step (i.e. don't create a new {octicon}`issue-opened;0.8em` Issue) and simply proceed with step 3. **Read Documentation**.
 {% endif %}
 
+:::{admonition} Bugs
+:class: warning, margin
+Explain how a bug can be reproduced!
+:::
 {% if page %}##### {% endif %}2. **Open an {octicon}`issue-opened;0.8em` Issues** 📝{% if slide %} Explain why some work needs to be done.
 {% else %} 
    - Write a short and concise description of the Bug, Question, or Suggestion.
