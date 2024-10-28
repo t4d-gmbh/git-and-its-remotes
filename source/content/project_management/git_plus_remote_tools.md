@@ -8,7 +8,7 @@ What we are still missing is how events and actions in <i class="fab fa-git"></i
 As a start, let's simply clarify that:
 {% endif %}
 ```{epigraph}
-Some remote services can trigger events and actions in <i class="fab fa-git"></i> based on events and actions within their collaboration tools, and vice-versa.
+Some remote services can trigger actions in <i class="fab fa-git"></i> based on events & actions within their collaboration tools, and vice-versa.
 ```
 {% if page %}
 For <i class="fab fa-github"></i> **GitHub** and <i class="fab fa-gitlab"></i> **GitLab** there are many such triggers and it is not the goal here to provide a list of them.

@@ -1,4 +1,4 @@
-## Weekend out on Git[Hub/Lab] - Part 2 <i class="fa-solid fa-person-hiking"></i>
+## Weekend out on GitHub - Part 2 <i class="fa-solid fa-person-hiking"></i>
 
 Welcome back to our “Weekend Out” project!
 
