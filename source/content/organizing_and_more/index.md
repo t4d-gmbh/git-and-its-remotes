@@ -14,7 +14,7 @@ Remote services like <i class="fab fa-github"></i> **GitHub** and <i class="fab 
 ```{toctree}
 :maxdepth: 2
 
-./example_situation_accademia
+./example_situation_academia
 ./github_org_elements
 ./gitlab_org_elements
 ./differences
@@ -23,7 +23,7 @@ Remote services like <i class="fab fa-github"></i> **GitHub** and <i class="fab 
 {% else %}
 <!-- BUILDING THE PAGES -->
 <!-- build the page content here -->
-```{include} ./example_situation_accademia.md
+```{include} ./example_situation_academia.md
 ```
 ```{include} ./github_org_elements.md
 ```
