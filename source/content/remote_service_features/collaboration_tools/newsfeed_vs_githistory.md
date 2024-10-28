@@ -31,7 +31,7 @@ Compared to the News Feed, it does not provide real-time updates or notification
 
 ::::{grid}
 :::{grid-item-card} News Feed
-**rRepository activities** (commits, pull requests, issues, comments). 
+**Repository activities** (commits, pull requests, issues, comments). 
 Useful for *updates* and *collaboration*.
 ![GitHub News Feed](./github_news_feed_new.png)
 :::
