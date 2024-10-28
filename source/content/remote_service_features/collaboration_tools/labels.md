@@ -22,5 +22,5 @@ Joining a property and state with `::` into a single label, like {bdg-secondary}
 | Property                 | Description                                                                                                                                                     |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Name**                 | {% if slide %}Single word or combination of words{% else %}A clear and concise name for the label that describes its purpose (e.g., "bug", "enhancement", "documentation").{% endif %}                                              |
-| **Color**                | A color associated with the label{% if page %}, used for visual identification and organization within the project{% endif %}.                                                         |
-| **Description**          | Optional detailed explanation of what the label represents{% if page %}, providing context for when to use it{% endif %}.                                          |
+| **Color**                | A color associated with the label{% if page %}, used for visual identification and organization within the project.{% endif %}                                                        |
+| **Description**          | Optional detailed explanation of what the label represents{% if page %}, providing context for when to use it.{% endif %}                                          |

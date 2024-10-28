@@ -22,9 +22,9 @@ In this section, we will go over some of the key features of <i class="fab fa-gi
 
 :::{card} <i class="fab fa-git"></i> <strong>≠</strong> remote services, like <i class="fab fa-github"></i> **GitHub** or <i class="fab fa-gitlab"></i> **GitLab**
 
-> <i class="fab fa-git"></i> = version control system (VCS) to manage and track code changes
+> <i class="fab fa-git"></i> is a version control system (VCS) to manage and track code changes.
 
-> <i class="fab fa-git"></i>-based remote services (e.g. **GitHub**, **GitLab**) = web-based platforms that **offer additional features** to store and facilitate collaborative coding projects, extending tools offered by <i class="fab fa-git"></i>.
+> <i class="fab fa-git"></i>-based _remote services_, such as **GitHub** and **GitLab**, are web-based platforms that **offer additional features** to store and facilitate collaborative coding projects, thereby extending the tools offered by <i class="fab fa-git"></i>.
 :::
 {% endif %}
 

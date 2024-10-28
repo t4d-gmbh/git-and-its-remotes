@@ -1,8 +1,6 @@
 ## Remote Features
 
-The portfolio of tools, that different remote services offer, varies from service provider to service provider.
-
-However, some features are rather uinversally present{%if page %} and can be roughly described as follows:{% endif %}
+The portfolio of tools offered by different remote services varies between providers. However, some features are nearly universal. {%if page %} and can be roughly described as follows:{% endif %}
 
 {% if slide %}
 <!-- BUILDING THE SLIDES -->
