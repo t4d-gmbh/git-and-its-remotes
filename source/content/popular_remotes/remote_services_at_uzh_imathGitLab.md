@@ -6,9 +6,8 @@ Use your regular 'I-MATH' account to login.
 
 
 ### For members of UZH (not I-MATH)
-Open your I-MATH account (based on your UZH Webpass account) under [math.uzh.ch/account](https://math.uzh.ch/account)
-Then log-in as 'MATH User' at
-[git.math.uzh.ch/users/sign_in](https://git.math.uzh.ch/users/sign_in) -> Tab 'MATH User'
+Open your I-MATH account (based on your UZH Webpass account) under [math.uzh.ch/account](https://math.uzh.ch/account).
+Then log-in as 'MATH User' at [git.math.uzh.ch/users/sign_in](https://git.math.uzh.ch/users/sign_in) -> Tab 'MATH User'
 
 
 ### For non UZH persons
