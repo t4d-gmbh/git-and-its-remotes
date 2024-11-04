@@ -7,6 +7,14 @@ the quality of their work.
 
 <!-- include-upper -->
 
+---
+
+_If you find this course useful, please share it with others! Show your support by giving it a 🌟 using the ⭐-button at the top right of the page._
+
+_By starring the repository, you contribute to its visibility, making it easier for others to 🔍 discover and learn 👩‍🎓 how to use remote services like **GitHub** and **GitLab** to organize their projects effortlessly!_
+
+---
+
 # Content
 
 <!-- include-content-after -->
