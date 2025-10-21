@@ -8,8 +8,8 @@ Nevertheless, we think there a few topics that are worth mentioning and that you
 Some additional topics we think are worth exploring:
 {% endif %}
 
-{% if page %}::::{tabs}{% endif %}
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Pages
+{% if page %}::::{tabs}{% else %}::::{grid}{% endif %}
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif%} Pages
 Host websites directly from your GitHub repository. 
 {% if page %}
 ```{admonition} Details
@@ -19,8 +19,7 @@ It's a great way to showcase your projects, documentation, or any static content
 {% endif %}
 :::
 
-{% if page %}
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Wiki
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Wiki
 Share detailed information about your project. 
 {% if page %}
 ```{admonition} Details
@@ -29,10 +28,8 @@ Every GitHub repository comes with a wiki. It's a great place to document your p
 ```
 {% endif %}
 :::
-{% endif %}
 
-
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Releases
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Releases
 Manage and package software releases.
 {% if page %}
 ```{admonition} Details
@@ -42,9 +39,8 @@ They allow you to create release notes and attach binary files to a specific ver
 {% endif %}
 :::
 
-{% if page %} 
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Discussions
-A space for your community to have conversations, ask questions, and share ideas. 
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Discussions
+A space for chats, Q&A, etc.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -52,11 +48,13 @@ It's a great way to engage with your users and contributors. For more informatio
 ```
 {% endif %}
 :::
+{% if slide %}
+::::
+::::{grid}
 {% endif %}
 
-{% if page %}
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Packages
-Package hosting service, fully integrated with GitHub.
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Packages
+Integrated package hosting service.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -64,10 +62,9 @@ It allows you to host and manage packages and dependencies alongside your source
 ```
 {% endif %}
 :::
-{% endif %}
 
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Registry
-GitHub Container Registry for hosting and managing Docker container images within your GitHub repositories. 
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Registry
+Integrated container registry.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -77,8 +74,8 @@ For more information, see the [GitHub Container Registry Documentation](https://
 {% endif %}
 :::
 
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} GitHub Projects
-Project management tools for organizing and tracking work across repositories.
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} GitHub Projects
+Extensive set of project management tools.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -87,8 +84,8 @@ GitHub Projects {octicon}`project` provide kanban-style boards, roadmaps, and ta
 {% endif %}
 :::
 
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} AI assistance
-AI-powered coding assistance like GitHub Copilot {octicon}`copilot` or GitLab Duo.
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} AI assistance
+AI-powered coding assistance.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -96,9 +93,13 @@ GitHub Copilot {octicon}`copilot` provides AI-powered code completion, chat assi
 ```
 {% endif %}
 :::
+{% if slide %}
+::::
+::::{grid}
+{% endif %}
 
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Paid features
-Various paid features offer advanced security, team management, and enterprise support, etc.
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Paid features
+Advanced security, management, enterprise support, etc.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -107,8 +108,8 @@ These features provide additional tools and services to help you manage and secu
 {% endif %}
 :::
 
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Enterprise Plan features
-Host GitHub on your own servers, providing you with full control over your GitHub environment and data. 
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Enterprise Plan features
+Self-hosted GitHub. 
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -117,9 +118,8 @@ It includes all the features of GitHub.com, plus additional enterprise features.
 {% endif %}
 :::
 
-{% if page %}
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Self-hosted runners
-Run your workflows on GitHub-hosted runners or your own self-hosted runners. 
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Self-hosted runners
+Run sensitive workflows.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -127,11 +127,9 @@ Self-hosted runners give you more control over the environment in which your wor
 ```
 {% endif %}
 :::
-{% endif %}
 
-{% if page %}
-{% if page %}:::{tab}{% else %}:::{card}{% endif%} Confidential data handling
-Secret scanning and encrypted secrets, where to store sensitive information securely, and how to manage and protect confidential data.
+{% if page %}:::{tab}{% else %}:::{grid-item-card}{% endif %} Confidential data handling
+Secret scanning, extra encryption, etc.
 {% if page %}
 ```{admonition} Details
 :class: tip, dropdown
@@ -139,6 +137,6 @@ GitHub provides various features to help you manage and protect confidential dat
 This depends on if you're working on an Enterprise or a public repository. For more information, see the [GitHub Security Documentation](https://docs.github.com/en/code-security).
 ```
 {% endif %}
-{% endif %}
+:::
 
-{% if page %}::::{tabs}{% endif %}
+::::
