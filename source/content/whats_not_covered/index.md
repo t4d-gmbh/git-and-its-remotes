@@ -77,6 +77,16 @@ For more information, see the [GitHub Container Registry Documentation](https://
 {% endif %}
 :::
 
+{% if page %}:::{tab}{% else %}:::{card}{% endif%} GitHub Projects
+Project management tools for organizing and tracking work across repositories.
+{% if page %}
+```{admonition} Details
+:class: tip, dropdown
+GitHub Projects {octicon}`project` provide kanban-style boards, roadmaps, and tables to help you plan and track your work. You can link issues and pull requests to organize tasks and visualize progress. For more information, see the [GitHub Projects Documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects).
+```
+{% endif %}
+:::
+
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} Paid features
 Various paid features offer advanced security, team management, and enterprise support, etc.
 {% if page %}
