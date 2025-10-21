@@ -1,5 +1,5 @@
 {% if build == "pages" %}
-## Challenges Research Group May Encounter
+## Challenges in Research Groups
 
 Imagine a research group at a university, bustling with brilliant minds and groundbreaking ideas. 
 However, their collaboration is hindered by a chaotic workflow. 
@@ -12,7 +12,7 @@ Data integrity is compromised, and integrating contributions from different team
 
 {% elif build == "slides" %}
 <!-- BUILDING THE SLIDES -->
-## Challenges Research Group May Encounter
+## Challenges in Research Groups
 
 - **Chaotic Workflow**: Brilliant ideas, but collaboration remains inefficient.
 - **Email Overload**: Attachments and code snippets get lost in endless email chains.
