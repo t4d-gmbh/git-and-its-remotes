@@ -26,7 +26,7 @@ Barbara Mejia
 
 ### Content
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 {% if build == "slides" %}:numbered:{% endif %}
 
 content/index
