@@ -77,6 +77,26 @@ For more information, see the [GitHub Container Registry Documentation](https://
 {% endif %}
 :::
 
+{% if page %}:::{tab}{% else %}:::{card}{% endif%} GitHub Projects
+Project management tools for organizing and tracking work across repositories.
+{% if page %}
+```{admonition} Details
+:class: tip, dropdown
+GitHub Projects {octicon}`project` provide kanban-style boards, roadmaps, and tables to help you plan and track your work. You can link issues and pull requests to organize tasks and visualize progress. For more information, see the [GitHub Projects Documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects).
+```
+{% endif %}
+:::
+
+{% if page %}:::{tab}{% else %}:::{card}{% endif%} AI assistance
+AI-powered coding assistance like GitHub Copilot {octicon}`copilot` or GitLab Duo.
+{% if page %}
+```{admonition} Details
+:class: tip, dropdown
+GitHub Copilot {octicon}`copilot` provides AI-powered code completion, chat assistance, and code generation directly in your IDE and on GitHub.com. GitLab Duo offers similar AI capabilities including code suggestions, vulnerability explanations, and merge request summaries. These tools can significantly boost productivity by helping with code writing, debugging, and documentation. For more information, see the [GitHub Copilot Documentation](https://docs.github.com/en/copilot) and [GitLab Duo Documentation](https://docs.gitlab.com/ee/user/ai_features.html).
+```
+{% endif %}
+:::
+
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} Paid features
 Various paid features offer advanced security, team management, and enterprise support, etc.
 {% if page %}
