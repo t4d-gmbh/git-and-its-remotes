@@ -1,12 +1,12 @@
 {% if build == "slides" %}
-## Remote Services Overview
+## Overview: **GitHub** <i class="fab fa-github"></i> & **GitLab** <i class="fab fa-gitlab"></i>
 {% endif %}
 
+{% if build == "pages" %}
 <span style="font-size:18px;">Remote services are platforms that host Git repositories on servers accessible over the internet. 
 These services provide additional features that enhance collaboration, project management, and continuous integration/continuous deployment (CI/CD). 
 They allow multiple users to work on the same project simultaneously, track changes, and manage versions efficiently.</span>
 
-{% if build == "pages" %}
 
 | **Remote Service** | **Founded** | **Acquired/Owned by** | **Popularity** | **Key Features** | **Costs** |
 |--------------------|-------------|-----------------------|----------------|------------------|-----------|
