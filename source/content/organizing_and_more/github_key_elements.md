@@ -13,7 +13,7 @@ They can be assigned to different project management elements and roles like {oc
 {% endif %}
 :::
 {% if page %}:::{tab}{% else %}:::{card}{% endif%} {octicon}`organization` Organizations
-Shared accounts for collaboration across multiple projects. 
+Shared accounts for collaboration across multiple Repositories. 
 
 {% if page %}
 ```{admonition} Details
