@@ -29,7 +29,7 @@ Explain how a bug can be reproduced!
    - Create a personal copy of the repository by forking it.
 {% endif %}
 
-{% if page %}##### {% endif %}5. **Make Changes** ✏️{% if slide %} Implement in the forked repo. following best practices.
+{% if page %}##### {% endif %}5. **Make Changes** ✏️{% if slide %} Implement in the forked repo. Following best practices.
 {% else %}
    - Implement the changes or features you want to contribute.
      For smaller changes you might directly work on the healthy reference (i.e. **`main`**) of the forked repository.
@@ -48,11 +48,11 @@ Explain how a bug can be reproduced!
      - Explain why you followed a particular approach (if unclear).
 {% endif %}
 
-{% if page %}#### {% endif %}7. **Participate in Code Review** 👥{% if slide %} Be open for feedback and repsect the maintainers decisions.
+{% if page %}#### {% endif %}7. **Participate in Code Review** 👥{% if slide %} Be open for feedback and respect the maintainers decisions.
 {% else %}
    - Engage with project maintainers and other contributors during the review process.
    - Be open to feedback and make any necessary revisions.
-   - Respect the maintainers decisions and adaptations, if you are not happy with them you can always keep your forked repository and maintain it on your own!
+   - Respect the maintainers decisions and adaptations, if you are not happy with them, you can always keep your forked repository and maintain it on your own!
 {% endif %}
 
 {% if page %}#### {% endif %}8. 🌟 **Stay Engaged** 🌟{% if slide %}
